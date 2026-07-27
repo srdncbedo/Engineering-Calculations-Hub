@@ -20,3 +20,30 @@ body {
     color: #94a3b8;
     font-size: 18px;
 }
+.btn {
+    background: rgba(10, 25, 7, 0.3) !important;
+    border: 2px solid rgba(56, 189, 248, 0.9) !important;
+
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px, 24px;
+    border-radius: 8px;
+
+    backdrop-filter: blur(6px);
+
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+table{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    padding: 10px;
+
+}
