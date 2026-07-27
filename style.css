@@ -1,4 +1,9 @@
 body {
+    background-image: url('bg_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-color: #0a192f;
     color: #f8fafc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,4 +26,4 @@ body {
     border-radius: 8px;
     float: right;
     margin-left: 20px;
-}   
+} 
